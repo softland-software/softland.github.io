@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* CABECERA */
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #009933;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+header img {
+  width: 200px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* MENÚ */
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+main h1 {
+  font-size: 28px;
+  color: #009933;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+/* PROGRAMAS EN INICIO */
+.programas {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.programa {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.programa img {
+  width: 64px;
+  height: 64px;
+}
+
+.programa .info h2 {
+  margin-bottom: 5px;
+  color: #009933;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #009933;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #00b33c;
+}
+
+.img-programa {
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: 20px auto;
+}
+
+.volver {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  background-color: #333;
+}
+
+/* PIE */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .icons {
+  margin-bottom: 8px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.8;
+}
